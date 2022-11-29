@@ -1,0 +1,383 @@
+img {
+  display: block;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202123;
+  color: white;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  width: 1250px;
+}
+.main-header {
+  display: grid;
+  grid-template-columns: 110px 1fr 240px;
+  align-items: center;
+  gap: 10px;
+  padding: 35px 15px 10px;
+}
+
+.main-header h1 {
+  font-weight: 300;
+}
+
+.main-header form {
+  margin-left: 90px;
+  max-width: 650px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  background-color: #303134;
+  border-radius: 25px;
+  padding: 0 18px;
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+}
+.search img {
+  display: block;
+  height: 28px;
+  cursor: pointer;
+}
+
+.search input {
+  all: unset;
+  display: block;
+  color: white;
+  width: 100%;
+  flex-grow: 1;
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+nav ul li .icon {
+  width: 30px;
+  height: 30px;
+}
+
+nav ul li img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.bar {
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px solid #3c4043;
+  color: #969ba1;
+  width: 100%;
+  overflow: scroll;
+}
+
+.bar .container {
+  display: flex;
+  gap: 150px;
+}
+
+.bar ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.bar ul li,
+.bar ul div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar ul li div svg,
+.bar ul div div svg {
+  fill: #969ba1;
+}
+
+.bar ul span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.bar .tools {
+  display: block;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.bar .tools:hover {
+  color: white;
+}
+
+.bar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.bar::-webkit-scrollbar-thumb {
+  height: 0;
+}
+
+.results {
+  color: #969ba1;
+  display: block;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  margin-left: 14%;
+}
+
+main .container {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  gap: 50px;
+}
+
+main .container section .site-link {
+  color: #969ba1;
+  display: block;
+  padding: 10px 0;
+}
+
+main .container section .search-result {
+  margin-bottom: 10px;
+}
+
+main .container section .search-result a {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #8ab4f8;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+main .container section .search-result p {
+  color: #bdc1c6;
+  line-height: 1.6;
+}
+
+main .container aside .sider {
+  overflow: hidden;
+  border-radius: 30px;
+  border: 1px solid #3c4043;
+  padding-bottom: 30px;
+}
+
+main .container aside .sider .images-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+}
+
+main .container aside .sider .images-grid div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+main .container aside .sider .images-grid img {
+  width: 100%;
+}
+
+main .container aside .sider .sider-title {
+  padding: 20px;
+  border-bottom: 1px solid #3c4043;
+}
+
+main .container aside .sider .sider-title h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+main .container aside .sider .sider-title span {
+  color: #969ba1;
+}
+
+main .container aside .sider .content {
+  padding: 20px;
+  color: #bdc1c6;
+  line-height: 1.6;
+}
+
+main .container aside .sider .content .main {
+  margin-bottom: 14px;
+}
+
+main .container aside .sider .content ul li {
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+main .container aside .sider .content ul li span {
+  font-weight: 400;
+}
+
+main .container aside .sider .footer h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+main .container aside .sider .footer div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+main .container aside .sider .footer div img {
+  border-radius: 5px;
+}
+
+.related-searches-heading {
+  margin-top: 27px;
+  padding-bottom: 20px;
+  color: #222;
+}
+.related-searches-block {
+  display: inline-flex;
+}
+.related-searches-card {
+  display: flex;
+  flex-direction: column;
+}
+.related-searches-card a {
+  width: 250px;
+  height: 40px;
+  padding: 8px 20px 10px 15px;
+  font-weight: bold;
+  margin: 10px 20px;
+  color: #1a0dab;
+  background-color: gray;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #bdc1c6;
+}
+
+.related-searches-card a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+/* Pager */
+.pager {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+tr {
+  vertical-align: top;
+}
+.pager-td {
+  padding: 0;
+  text-align: center;
+}
+.pager-td a {
+  color: #4285f4;
+}
+.pager-td a:hover {
+  text-decoration: underline;
+}
+.pager-G {
+  display: block;
+  background: url(../images/google-pager.webp) no-repeat;
+  background-position: -24px 0;
+  width: 28px;
+  height: 40px;
+}
+.pager-red-o {
+  display: block;
+  background: url(../images/google-pager.webp) no-repeat;
+  background-position: -53px 0;
+  width: 20px;
+  height: 40px;
+}
+.pager-yellow-o {
+  display: block;
+  background: url(../images/google-pager.webp) no-repeat;
+  background-position: -74px 0;
+  width: 20px;
+  height: 40px;
+}
+.pager-gle {
+  display: block;
+  background: url(../images/google-pager.webp) no-repeat;
+  background-position: -96px 0;
+  width: 71px;
+  height: 40px;
+}
+.pager-next {
+  margin-left: 53px;
+}
+
+.footer-site-link a {
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #8ab4f8;
+}
+
+footer {
+  background-color: #222222;
+  color: #999da2;
+  font-size: 11px;
+  text-transform: capitalize;
+}
+
+footer div {
+  padding: 12px 30px;
+}
+
+footer div:first-child {
+  border-bottom: 1px solid #35383a;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer div ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer div ul li {
+  cursor: pointer;
+}
