@@ -31,6 +31,13 @@ ul {
 .container {
   width: 1250px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 1250px;
+  }
+}
+
 .main-header {
   display: grid;
   grid-template-columns: 110px 1fr 240px;
